@@ -22,6 +22,7 @@ export class DirectiveComponent implements OnInit {
     else {
       this.status = true;
     }
+    console.log(this.status)
   }
 
 }

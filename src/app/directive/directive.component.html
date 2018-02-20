@@ -1,7 +1,11 @@
-<p>
+<p [ngClass]="{
+  hidden: status === false
+}">
  p1
 </p>
-<p>
+<p  [ngClass]="{
+  hidden: status === true
+}">
   p2
  </p>
  <button (click)="changeStatus()" >valider</button>
