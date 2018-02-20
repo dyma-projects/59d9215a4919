@@ -8,4 +8,9 @@
 }">
   p2
  </p>
+ <ul>
+   <li *ngFor="let text of textes"> 
+    {{text}}
+   </li>
+ </ul>
  <button (click)="changeStatus()" >valider</button>
