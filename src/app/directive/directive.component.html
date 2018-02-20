@@ -1,3 +1,4 @@
 <p>
-  directive works!
+  <img width="200" alt={{altImage}} [src]="srcImage" ><br>
+  <input [value]="srcImage"  type="text" (input)="srcImage = $event.target.value">
 </p>
