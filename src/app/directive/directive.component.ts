@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectiveComponent implements OnInit {
   public status: boolean = true;
-
+  public textes:string[]= ['un','deux','trois'];
+  
   constructor() { }
 
   ngOnInit() {
